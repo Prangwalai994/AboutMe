@@ -1,6 +1,7 @@
 package com.example.aboutme
 
 import android.view.View
+import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 
@@ -17,4 +18,12 @@ class MainActivity : AppCompatActivity() {
         editText.visibility = View.GONE
         view.visibility = View.GONE
         nicknameTextView.visibility = View.VISIBLE
+
+        view.visibility = View.GONE
+        nicknameTextView.visibility = View.VISIBLE
+
+        findViewById<Button>(R.id.done_button).setOnClickListener {
+            addNickname(it)
+        }
+    }
 }
