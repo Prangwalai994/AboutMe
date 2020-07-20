@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:visibility="gone"
-            android:text="" />
+            android:background="@color/colorAccent" />
 
         <ImageView
             android:id="@+id/star_image"
